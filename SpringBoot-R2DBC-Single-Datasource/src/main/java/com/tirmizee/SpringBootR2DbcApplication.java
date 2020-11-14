@@ -15,7 +15,7 @@ import reactor.core.publisher.Flux;
 public class SpringBootR2DbcApplication implements CommandLineRunner {
 
 	@Autowired
-	ApplicationContext applicationContext;
+	public ApplicationContext applicationContext;
 	
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootR2DbcApplication.class, args);
