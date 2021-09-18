@@ -28,6 +28,8 @@ public class PostgresConfig {
 	    ConnectionFactoryInitializer factoryInitializer = new ConnectionFactoryInitializer();
 	    factoryInitializer.setConnectionFactory(connectionFactory);
 	    factoryInitializer.setDatabasePopulator(populator);
+	    factoryInitializer.setEnabled(false);
+	    
 	    return factoryInitializer;
 	}
 	
