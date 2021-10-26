@@ -3,7 +3,7 @@
 ### Examples
 
 - Single Datasource
-- Multiple Datasource
+- Multiple Datasource (postgest, mysql, mssql)
 
 ### Reference
 
